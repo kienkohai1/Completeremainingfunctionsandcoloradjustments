@@ -43,7 +43,7 @@ const menuItems: MenuItem[] = [
   },
   {
     path: '/shopping',
-    label: 'Mua sắm',
+    label: 'Kho hàng',
     icon: <ShoppingBag size={20} />,
   },
 ];
@@ -94,14 +94,6 @@ export default function Sidebar() {
             );
           })}
         </nav>
-      </div>
-
-      {/* Footer */}
-      <div className="p-6 border-t border-gray-200">
-        <div className="text-sm text-gray-500">
-          <p>© 2026 The Hunter</p>
-          <p>Hệ thống quản lý sân tập</p>
-        </div>
       </div>
     </div>
   );
